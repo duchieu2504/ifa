@@ -1124,7 +1124,7 @@ function Home(props) {
                                         >
                                             <div className="modaling_content_list">
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1149,7 +1149,7 @@ function Home(props) {
                                                     </div>
                                                 </NavLink>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1179,7 +1179,7 @@ function Home(props) {
                                                     </div>
                                                 </NavLink>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1209,7 +1209,7 @@ function Home(props) {
                                             </div>
                                             <div className="modaling_content_list">
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1234,7 +1234,7 @@ function Home(props) {
                                                     </div>
                                                 </NavLink>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1264,7 +1264,7 @@ function Home(props) {
                                                     </div>
                                                 </NavLink>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/ifa"
                                                     className="modaling_content_link"
                                                 >
                                                     <div className="modaling_content_item">
@@ -1371,7 +1371,7 @@ function Home(props) {
                 <Container>
                     <Row>
                         <Col xs={4}>
-                            <NavLink to="/" className="work_training_link">
+                            <NavLink to="/ifa" className="work_training_link">
                                 <div className="work_training_img">
                                     <div className="work_training_img_text">
                                         ĐÀO TẠO INHOUSE
@@ -1398,7 +1398,10 @@ function Home(props) {
                         </Col>
                         <Col xs={4}>
                             <div className="work_column_two_list">
-                                <NavLink to="/" className="work_training_link">
+                                <NavLink
+                                    to="/ifa"
+                                    className="work_training_link"
+                                >
                                     <div className="work_item  d-flex">
                                         <img src={Image5} alt="Image 5" />
                                         <div className="work_item_title">
@@ -1410,7 +1413,10 @@ function Home(props) {
                                         </div>
                                     </div>
                                 </NavLink>
-                                <NavLink to="/" className="work_training_link">
+                                <NavLink
+                                    to="/ifa"
+                                    className="work_training_link"
+                                >
                                     <div className="work_item pt-5 d-flex">
                                         <img src={Image5} alt="Image 5" />
                                         <div className="work_item_title">
@@ -1422,7 +1428,10 @@ function Home(props) {
                                         </div>
                                     </div>
                                 </NavLink>
-                                <NavLink to="/" className="work_training_link">
+                                <NavLink
+                                    to="/ifa"
+                                    className="work_training_link"
+                                >
                                     <div className="work_item pt-5 d-flex">
                                         <img src={Image5} alt="Image 5" />
                                         <div className="work_item_title">
@@ -1435,7 +1444,10 @@ function Home(props) {
                                     </div>
                                 </NavLink>
 
-                                <NavLink to="/" className="work_training_link">
+                                <NavLink
+                                    to="/ifa"
+                                    className="work_training_link"
+                                >
                                     <div className="work_item pt-5 d-flex">
                                         <img src={Image5} alt="Image 5" />
                                         <div className="work_item_title">
@@ -1450,7 +1462,7 @@ function Home(props) {
                             </div>
                         </Col>
                         <Col xs={4}>
-                            <NavLink to="/" className="work_training_link">
+                            <NavLink to="/ifa" className="work_training_link">
                                 <div className="work_training_img pb-5">
                                     <div className="work_training_img_text">
                                         ĐÀO TẠO INHOUSE
@@ -1470,7 +1482,7 @@ function Home(props) {
                                     </div>
                                 </div>
                             </NavLink>
-                            <NavLink to="/" className="work_training_link">
+                            <NavLink to="/ifa" className="work_training_link">
                                 <div className="work_training_img pb-5">
                                     <div className="work_training_img_text">
                                         ĐÀO TẠO INHOUSE

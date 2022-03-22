@@ -15,8 +15,11 @@ function App() {
             <Header />
             <main>
                 <Routes>
-                    <Route extra path="/home" element={<Home />} />
-                    <Route path="/" element={<Navigate replace to="/home" />} />
+                    <Route extra path="/ifa/home" element={<Home />} />
+                    <Route
+                        path="/ifa"
+                        element={<Navigate replace to="/ifa/home" />}
+                    />
                 </Routes>
             </main>
             <Footer />

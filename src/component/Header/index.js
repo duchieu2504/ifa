@@ -182,55 +182,55 @@ function Header(props) {
                                     <div className="navbar_list me-auto d-flex justify-content-between w-100">
                                         <NavLink
                                             className="nav-link"
-                                            to="/home"
+                                            to="/ifa/home"
                                         >
                                             Trang chủ
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/introduce"
+                                            to="/ifa/introduce"
                                         >
                                             Giới thiệu
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/train"
+                                            to="/ifa/train"
                                         >
                                             Đào tạo
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/advise"
+                                            to="/ifa/advise"
                                         >
                                             Tư vấn
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/lecturers"
+                                            to="/ifa/lecturers"
                                         >
                                             Giảng viên
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/student"
+                                            to="/ifa/student"
                                         >
                                             Học viên
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/work"
+                                            to="/ifa/work"
                                         >
                                             Hoạt động
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/expert_perspective"
+                                            to="/ifa/expert_perspective"
                                         >
                                             Góc nhìn chuyên gia
                                         </NavLink>
                                         <NavLink
                                             className="nav-link"
-                                            to="/Contact"
+                                            to="/ifa/Contact"
                                         >
                                             Liên hệ
                                         </NavLink>
@@ -254,7 +254,7 @@ function Header(props) {
                                 <Col xs={5}>
                                     <div className="navbar_list me-auto d-flex justify-content-between">
                                         <NavLink
-                                            to="/home"
+                                            to="/ifa/home"
                                             className={clsx("nav-link", {
                                                 active: url === "home",
                                             })}
@@ -262,7 +262,7 @@ function Header(props) {
                                             Trang chủ
                                         </NavLink>
                                         <NavLink
-                                            to="/introduce"
+                                            to="/ifa/introduce"
                                             className={clsx("nav-link", {
                                                 active: url === "introduce",
                                             })}
@@ -271,7 +271,7 @@ function Header(props) {
                                             <IconDown />
                                         </NavLink>
                                         <NavLink
-                                            to="/train"
+                                            to="/ifa/train"
                                             className={clsx("nav-link", {
                                                 active: url === "train",
                                             })}
@@ -280,7 +280,7 @@ function Header(props) {
                                             <IconDown />
                                         </NavLink>
                                         <NavLink
-                                            to="/advise"
+                                            to="/ifa/advise"
                                             className={clsx("nav-link", {
                                                 active: url === "advise",
                                             })}
@@ -288,7 +288,7 @@ function Header(props) {
                                             Tư vấn
                                         </NavLink>
                                         <NavLink
-                                            to="/lecturers"
+                                            to="/ifa/lecturers"
                                             className={clsx("nav-link", {
                                                 active: url === "lecturers",
                                             })}
@@ -298,7 +298,7 @@ function Header(props) {
                                     </div>
                                 </Col>
                                 <Col xs={2} className="header_img px-5">
-                                    <NavLink to="/" className="">
+                                    <NavLink to="/ifa" className="">
                                         <img
                                             src={Logo}
                                             className="img-fluid"
@@ -309,7 +309,7 @@ function Header(props) {
                                 <Col xs={5}>
                                     <div className="me-auto d-flex justify-content-between align-items-center">
                                         <NavLink
-                                            to="/student"
+                                            to="/ifa/student"
                                             className={clsx("nav-link", {
                                                 active: url === "student",
                                             })}
@@ -317,7 +317,7 @@ function Header(props) {
                                             Học viên
                                         </NavLink>
                                         <NavLink
-                                            to="/work"
+                                            to="/ifa/work"
                                             className={clsx("nav-link", {
                                                 active: url === "work",
                                             })}
@@ -326,7 +326,7 @@ function Header(props) {
                                             <IconDown />
                                         </NavLink>
                                         <NavLink
-                                            to="/expert_perspective"
+                                            to="/ifa/expert_perspective"
                                             className={clsx("nav-link", {
                                                 active:
                                                     url ===
@@ -336,7 +336,7 @@ function Header(props) {
                                             Góc nhìn chuyên gia
                                         </NavLink>
                                         <NavLink
-                                            to="/contact"
+                                            to="/ifa/contact"
                                             className={clsx("nav-link", {
                                                 active: url === "contact",
                                             })}
