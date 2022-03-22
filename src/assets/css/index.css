@@ -1,0 +1,22 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+#root {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
